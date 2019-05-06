@@ -1,0 +1,6 @@
+	# Identifiez la gateway par défaut dans la table de routage
+
+netstat -r | grep "default" | head -1 | awk '{print$(NF-4)}'
+
+	# gateway = systeme qui permet de faere la liaison entre deux reseaux
+	# utilise default si ne trouve pas celle recherche

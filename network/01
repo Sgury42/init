@@ -1,0 +1,9 @@
+	# Afficher la liste de noms des interfaces reseaux.
+	# interface reseau = partie que assure la connexion entre un terminal 
+	# utilisateur et un reseau public ou prive.
+
+ifconfig -a | grep UP | cut -d : -f1
+
+	# ifconfig: affiche la configuration d'interface, -a affiche all meme celles inactives
+	# grep UP: retiend les lignes qui contiennent UP
+	# cut -d : -f1: coupe au deliminateur ':' et ne retien que la partie 1

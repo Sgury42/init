@@ -1,0 +1,21 @@
+	# Identifiez et affichez les caractéristiques de l’interface Ethernet :
+	# (a) Indiquez l’adresse de Broadcast
+
+ifconfig -a | grep broadcast | cut -d ' ' -f6
+
+	# Ethernet = conection physique au reseau
+	# Broadcast = transmission / liaison	
+
+	
+	# (b) Indiquez toutes les adresses IP qui font partie du même sous-réseau
+
+arp -a | cut -d '(' -f2 | cut -d ')' -f1
+
+	# adresse IP (internet protocol) = numero d'identification attribue de facon 
+	# permanente ou provsoire a chaque peripherique relie a un reseau informatique.
+	# ce situe a la base du systeme d'acheminement des paquets de donnees sur internet.
+	# arp (address resolution protocol) = sert a envoyer des paquets de donnees a un autre 
+	# ordinateur place dans le meme sous-reseaux dont on connait l'address ip
+	# commande arp -a: affiche toute les entrees dans le cache arp
+	# netstat -a: affiche l'ensemble des connexionss et des ports en ecoute sur la machine
+	# -r affiche la table de routage

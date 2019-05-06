@@ -1,0 +1,3 @@
+	# Interrogez un serveur DNS externe sur le nom de domaine slash16.org
+
+nslookup slash16.org 8.8.8.8
