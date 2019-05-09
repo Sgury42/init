@@ -1,0 +1,5 @@
+	# Déterminez le PID du service SSHD
+
+pidof sshd
+
+	# PID = Processus ID

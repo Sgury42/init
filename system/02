@@ -1,0 +1,6 @@
+	# Quelle commande permet de renommer votre système ?
+
+hostname //nouveau_nom//
+
+	# Attention !! doit etre root!
+	# changer d'utilisateur: su //user_name//

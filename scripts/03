@@ -1,0 +1,9 @@
+VAR=`curl -s --get --data-ascii "q=content" http://crisco.unicaen.fr/des/synonymes/$1`
+VAR2=`echo "$VAR" | grep "/des/sy" | cut -c28-`
+VAR3=`echo "$VAR2" | cut -d "\"" -f1 | sed 1,1d | sed q`
+echo "$VAR3"
+
+	# curl = transfert une donnee a un url compatible
+	# -s : n'affiche pas la progression, ni messages d'erreur
+	# --get : permet de mettre a la suite de l'url les donnees specifiees avec --data
+	

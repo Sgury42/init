@@ -1,0 +1,7 @@
+	# Trouvez l’IP qui vous a été assignée par le serveur dhcp
+
+	# DHCP = Dynamic Host Configuration Protocol: delivre des adresses IP aux ordinateurs qui se
+	# connectent sur le reseau
+
+ifconfig en0 | grep "inet " | cut -d ' ' -f2
+

@@ -1,0 +1,7 @@
+	# Expliquez comment se connecter en tant que ce nouvelle utilisateur. (En session
+	# graphique et en session ssh)
+
+session graphique: su mwa
+                   entrer mot de passe
+
+session ssh: tout pareil!

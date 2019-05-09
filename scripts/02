@@ -1,0 +1,6 @@
+	# Réalisez un script qui permet de supprimer un user LOGUÉ sur la machine
+
+sudo passwd -l [user_name]        # bloque le compte de l'utilisateur
+killall -KILL -u [user_name]      # ferme les programme en cour d'utilisation par user
+userdel [user_name]               # supprime user du rep home
+crontab -r -u [user_name]         # suprime les taches cron lies a user

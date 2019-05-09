@@ -1,0 +1,6 @@
+	# Donnez une commande qui permet d’arrêter le service ssh
+
+sudo systemctl stop ssh
+
+	# sudo systemctl is-active ssh = affiche l'etat du ssh
+	# sudo systemctl start ssh = redemarre le ssh

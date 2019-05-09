@@ -1,0 +1,6 @@
+	# Quel est le fichier à modifier pour rendre cela permanent ?
+
+modifier le fichier /etc/hostname et /etc/hosts
+
+	# fichier a modifier via sudo vim ...
+	# valider la modification: sudo hostname //nouveau_nom//

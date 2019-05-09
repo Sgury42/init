@@ -1,0 +1,7 @@
+	# Trouvez une commande qui, en parallèle de la session graphique, permet de se
+	# connecter en ssh sur la machine
+
+ssh login@machine_name
+
+	# passer en mode non graphique : ctrl + alt + f1
+	# passer en mode graphique : ctrl + alt + f7

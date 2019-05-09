@@ -1,0 +1,4 @@
+	# Quelle commande permet d’ajouter un utilisateur local supplémentaire ?
+
+sudo adduser [user_name]
+

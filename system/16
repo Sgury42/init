@@ -1,0 +1,8 @@
+	# Trouvez un service qui permet de lancer des tâches à horaires régulières
+
+Cron est un gestionaire de taches qui permet de planifier les taches a effectuer 
+automatiquement (sans lancement manuel de la part de l'utilisateur). 5 fichiers 
+sont creer pour classer les commandes celon qu'elles soit a effectuer toute les 
+minutes, heures, jours, semaines ou mois. 
+Chaque tache auras un fichier composee de 3 donnees differentes: sa periode de 
+repetition, l'utilisateur de systeme sous lequel realiser la tache, la commande.

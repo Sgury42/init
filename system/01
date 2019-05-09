@@ -1,0 +1,6 @@
+	# Dans quel fichier se trouve la version installée de votre Debian ?
+
+Dans le sgoinfre, goinfre commun qui ne s'efface qu'une fois tout les ans, path:
+/sgoinfre/goinfre/Perso/sgury/VirtualBox\ VMs/MyDebian
+
+relie dans mon dossier init avec un lien symbolique (ln -s)

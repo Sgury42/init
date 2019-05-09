@@ -1,0 +1,5 @@
+	# Grâce a la question précédente et au reverse DNS retrouvez le nom de votre host
+
+e2r11p22.42.fr
+
+	# nslookup 10.12.11.22
