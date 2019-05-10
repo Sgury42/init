@@ -1,7 +1,6 @@
-	# Expliquez comment se connecter en tant que ce nouvelle utilisateur. (En session
+	# Expliquez comment se connecter en tant que ce nouvel utilisateur. (En session
 	# graphique et en session ssh)
 
-session graphique: su mwa
-                   entrer mot de passe
+session graphique: au demarage de la machine, login / password
 
-session ssh: tout pareil!
+session ssh: ssh user_name@IP / password (commande su pour changer d'utilisateur)

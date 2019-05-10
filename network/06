@@ -1,2 +1,3 @@
-Le path complet du fichier dans lequel est ecrit l'adresse IP du serveur DNS que j'utilise :
+	# Récupérez le path complet du fichier dans lequel est écrit l’adresse IP du serveur
+	# DNS que vous utilisez
 /etc/resolv.conf

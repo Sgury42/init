@@ -1,4 +1,5 @@
 	# Trouvez grâce au résultat de la commande précédente le nom et l’IP du matériel
 	# qui fait le lien entre vous (réseau local) et l’extérieur
 
-ligne 2: nat-1 (10.60.1.11) = nom et IP du routeur
+nom = nat-1 
+IP routeur = 10.60.1.11

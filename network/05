@@ -1,8 +1,6 @@
 	# Identifiez l’IP du serveur DNS qui répond sur le domaine suivant : slash16.org
 
+nslookup slash16.org | grep Server | awk '{print $2}'
 	# DNS = Domain Name Service : permet a l'ordinateur de trouver l'addresse IP du serveur 
 	# qui heberge le site sous un certain nom de domaine
-
-nslookup slash16.org | grep Server | awk '{print $2}'
-
 	# dig : permet de verifier les dns; +short: n'affiche que les adresse IP

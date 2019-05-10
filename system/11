@@ -2,5 +2,4 @@
 	# d’une manière humainement compréhensible ? ?
 
 df -h
-
 	# -h = human readable (man fd)

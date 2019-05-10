@@ -1,11 +1,9 @@
 	# Identifiez l’adresse MAC de la carte Wi-Fi
 
+ifconfig en1 | grep ether | cut -d ' ' -f2
 	# adresse MAC (Media Access Control) = adresse physique d'un peripherique reseau
 	# chaque adresse MAC est unique, elle est une sorte de plaque d'immatriculaion des 
 	# appareils elecroniques. elle est configuree et activee lors de la fabrication en 
 	# usine
-
-ifconfig en1 | grep ether | cut -d ' ' -f2
-
 	# adresse MAC en0 = adresse MAC de la voie filaire
 	# adresse MAC en1 = adresse MAC de la voie wireless

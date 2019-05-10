@@ -1,6 +1,5 @@
 	# Faites pointer intra.42.fr sur l’adresse suivante 46.19.122.85
 
-modifier le fichier resolv.conf (/etc/resolv.conf)
+modifier le fichier hosts (/etc/hosts)
 domain intra.42.fr
 nameserver 46.19.122.85
-

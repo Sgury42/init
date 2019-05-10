@@ -1,5 +1,4 @@
 	# Donnez une commande qui détermine l’état du service SSH
 
-	# statut ssh:
 /etc/init.k/ssh status
 

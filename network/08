@@ -1,3 +1,4 @@
 	# Trouver chez quel hébergeur est le site de Slash16
+
 L'hebergeur du site slash 16 est : amazon
-	# trouve grace a whois
+	# trouve grace a whois; aws.* = amazon

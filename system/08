@@ -1,7 +1,6 @@
 	# Quel fichier contient les clés RSA des machines autorisées à se connecter via SSH ?
 
-fichier: known_hosts ou authorized_keys
+fichier: authorized_keys
 
 path:
-~/.ssh/known_hosts
 ~/.ssh/authorized_keys

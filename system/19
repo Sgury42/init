@@ -1,5 +1,33 @@
 	# Listez les services qui se lancent automatiquement lorsque la machine boot et
 	# indiquez le nom donné à ce type de service
 
-systemctl list-unit-files --state=enabled
+ls -l /etc/init.d
+nom = daemons
 
+alsa-utils
+anacron
+avahi-daemon
+bluetooth
+console-setup.sh
+cron
+cups
+cups-browsed
+dbus
+hddtemp
+hwclock.sh
+keyboard-setup.sh
+kmod
+lightdm
+lm-sensors
+minissdpd
+networking
+network-manager
+pppd-dns
+procps
+rsyslog
+saned
+speech-dispatcher
+ssh
+sudo
+udev
+x11-common

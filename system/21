@@ -1,4 +1,3 @@
 	# Listez tout les utilisateurs réels de la machine
 
-grep bash /etc/passwd | cut -f1 -d:
-
+users
